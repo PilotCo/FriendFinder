@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	
+	<!--Link to bootstrap for use -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+	<!--include the css file-->
+	<link rel="stylesheet" type="text/css" href="public/css.css">
+</head>
+<body>
+
+	<div class='container'>
+		<div class='row' id='header'>
+			<div class='col-md-3 text-center'>
+				<p id='logo'>FriendFinder</p>
+			</div>
+			<div class="col-md-3 ml-auto text-center" id='home'>
+				<a href="/"><p>Home</p></a>
+			</div>
+		</div>
+		<div class='row' id='mainBody'>
+			<div class='col-md-12 text-center'>
+				<h1>Welcome to FriendFinder!</h1>
+				<a href="/survey"><button type="button" class="btn btn-lg btn-primary" id='surveyButton'><span class="glyphicon glyphicon-list-alt"></span> Find Your BFF</button></a>
+			</div>
+		</div>
+	
+		<div class="col-md-12" id='siteInfo'>
+			<div class="row">
+				<div class="col-md-6">
+					<h2>What is FriendFinder?</h2>
+					<p><strong>Find the other "you":</strong> You answer questions and we match you up with the most similar person to yourself.</p>
+					<p><strong>See your friend:</strong> We aren't about blind matches here, see exactly what your new best friend looks like even before they know you are besties!</p>
+					<p><strong>Rule the world:</strong> Now that you know who your best friend is, nothing can stop you.</p>
+				</div>
+				<div class="col-md-6 text-center">
+					<img id='dogPic' src="public/images/besties.jpg" alt="dogs">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='container-fluid footer text-center' id="footer">
+		<p id='creator'>Created by CoPilot</p>
+	</div>
+
+
+</body>
+</html>

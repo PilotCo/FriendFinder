@@ -1,0 +1,53 @@
+#header{
+	width:100%;
+	background-color: lightblue;
+	
+	height:75px;
+}
+#logo{
+	font-size: 25px;
+	color:white;
+	margin-top: 10px;
+}
+#home{
+	margin-top: 20px;
+}
+.footer{
+	height:50px;
+	color: white;
+	background-color: darkgrey;
+	margin-top: 30px;
+}
+#creator{
+	margin-top: 15px;
+}
+#surveyButton{
+	margin-top: 25px;
+}
+.questionNum{
+	border-top: solid lightblue;
+	border-top-width: 100%;
+	margin-top: 10px;
+	border-left: solid lightblue;
+}
+#mainBody{
+	height:200px;
+}
+#surveyHeader{
+	margin-top: 15px;
+}
+#dogPic{
+	height:300px;
+}
+.displayFriend{
+	position: fixed;
+	right:30%;
+	border: solid #0069d9;
+	background-color: white;
+	top:15%;
+	left:30%;
+}
+#bffPic{
+	width:90%;
+	margin-bottom:15px;
+}

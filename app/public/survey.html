@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+
+	<!--Link to bootstrap for use -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+	<!-- JQuery link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<!--include the css file-->
+	<link rel="stylesheet" type="text/css" href="public/css.css">
+</head>
+<body>
+	<div class='container'>
+		<div class='row' id='header'>
+			<div class='col-md-3 text-center'>
+				<p id='logo'>FriendFinder</p>
+			</div>
+			<div class="col-md-3 ml-auto text-center" id="home">
+				<a href="/"><p>Home</p></a>
+			</div>
+		</div>
+		<h2 id='surveyHeader'>Let's find out who you are!</h2>
+		<hr>
+
+		<h3><strong>Very Basic Info</strong></h3>
+		<h4>Name (Required)</h4>
+		<input type="text" name="" id="name" class="form-control" required >
+
+		<h4>Link to Photo Image (Required)</h4>
+		<input type="text" name="" id="photo" class="form-control" required >
+
+		<hr>
+
+		<h3 class="questionNum"><strong>Question 1</strong></h3>
+		<h4>You wake up on a Sunday morning what do you choose to drink?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q1" required>
+	 		<option value=""></option>
+            <option value="1">A beer and a shot, I don't mess around</option>
+            <option value="2">A bloody mary, mimosa, or get the hell away from me</option>
+            <option value="3">Coffee.</option>
+            <option value="4">All I need is a glass of water</option>
+            <option value="5">Juice because I am better than you and I am healthy</option>
+      	</select>
+
+		<h3 class="questionNum"><strong>Question 2</strong></h3>
+		<h4>A small dog prances up to you, what do you do?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q2" required>
+	 		<option value=""></option>
+            <option value="1">Punt the little yapper, small dog = rodent</option>
+            <option value="2">Yell at the dog, you don't want that thing around you</option>
+            <option value="3">Just ignore it, I am immune to your affection</option>
+            <option value="4">Pet the little feller, he's adorable</option>
+            <option value="5">OMG it's a small dog! ILOVEYOU ILOVEYOU ILOVEYOU</option>
+      	</select>
+
+
+		<h3 class="questionNum"><strong>Question 3</strong></h3>
+		<h4>You see somebody completely offend your best friend, what do you do?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q3">
+	 		<option value=""></option>
+            <option value="1">Straight up roundhouse the person. NOT TO MY FRIEND</option>
+            <option value="2">You better believe I am yelling at the person</option>
+            <option value="3">That somebody is going to be reading a VERY strongly worded letter</option>
+            <option value="4">Oh that person is getting the angry eyes</option>
+            <option value="5">Pfff my friends can handle themselves</option>
+      	</select>
+
+
+		<h3 class="questionNum"><strong>Question 4</strong></h3>
+		<h4>Let's talk about first dates, what sounds fun to you?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q4">
+	 		<option value=""></option>
+            <option value="1">Anything extreme: let's go run with the freakin bulls</option>
+            <option value="2">Let's be outdoors or doing something active. I like hikes</option>
+            <option value="3">A day or night downtown, let's have some fun</option>
+            <option value="4">How about coffee or nice place to get to know the person</option>
+            <option value="5">I only Tinder, talk to me on the interweb please</option>
+      	</select>
+
+
+		<h3 class="questionNum"><strong>Question 5</strong></h3>
+		<h4>Speaking of dates, how many until it's okay to "do the deed"?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q5">
+	 		<option value=""></option>
+            <option value="1">HAHAHAHAHAHAHAHAHA dates?</option>
+            <option value="2">1-2 is fine</option>
+            <option value="3">3-4</option>
+            <option value="4">5-8</option>
+            <option value="5">Marriage or nothing. My body is a temple</option>
+      	</select>
+
+
+		<h3 class="questionNum"><strong>Question 6</strong></h3>
+		<h4>On a scale from 1-5 how extreme are you?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q6">
+	 		<option value=""></option>
+            <option value="1">1 (extreme? I only like reading and soft blankets)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (EXTREEEEEEEEEEEEEEME)</option>
+      	</select>
+
+
+		<h3 class="questionNum"><strong>Question 7</strong></h3>
+		<h4>What best describes your high school friend group?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q7">
+	 		<option value=""></option>
+            <option value="1">I kept to myself</option>
+            <option value="2">I had a small friend group, but I liked them</option>
+            <option value="3">I had an average number of friends, all good ones too</option>
+            <option value="4">I always had a lot of friends and always made more</option>
+            <option value="5">You are looking at the KING of high school. everyone was my friend</option>
+      	</select>
+
+		<h3 class="questionNum"><strong>Question 8</strong></h3>
+		<h4>What is the best way to summarize your personality?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q8">
+	 		<option value=""></option>
+            <option value="1">Don't touch me, don't look at me, just leave before I come unglued</option>
+            <option value="2">I like solitude for the most part</option>
+            <option value="3">Always neutral. I like to coast</option>
+            <option value="4">I like to see the cup as half full, the grass is greener on my side</option>
+            <option value="5">You are looking at the embodiment of happiness</option>
+      	</select>
+
+		<h3 class="questionNum"><strong>Question 9</strong></h3>
+		<h4>When is the appropriate time to start partying?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q9">
+	 		<option value=""></option>
+            <option value="1">Wait, the partying can stop?</option>
+            <option value="2">Let me wake up, the party starts at noon</option>
+            <option value="3">3:00, it is 5:00 somewhere!</option>
+            <option value="4">5:00-8:00, I have a life</option>
+            <option value="5">After 10:00 or nothing. You are looking at the evening superstar</option>
+      	</select>
+
+		<h3 class="questionNum"><strong>Question 10</strong></h3>
+		<h4>I believe this test will find my best friend, the test knows all.</h4>
+	 	<select data-placeholder="" class="chosen-select" id="q10">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+		<br>
+		<br>
+
+		<!-- Submit Button -->
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+		<div class="row">
+			<div class="col-xs-6 text-center">
+				<div id="results">
+					
+				</div>				
+			</div>
+		</div>
+
+	</div>
+
+	<div class='container-fluid footer text-center' id="footer">
+		<p id='creator'>Created by CoPilot</p>
+	</div>
+	
+	<!-- ++++++++++++++++++++ start Javascript ++++++++++++++++++++++-->
+	<script type="text/javascript">
+		//make sure results starts out blank
+		document.getElementById("results").innerHTML = "";
+
+		function displayFriends() {
+			var currentURL = window.location.origin;
+
+			$.ajax({url: currentURL + "/api/friends", method: "GET"})
+			.done(function(friendData) {
+				console.log("---------------------------------");
+				console.log("URL: " + currentURL + "/api/friends");
+				console.log("---------------------------------");
+				console.log(friendData);
+				console.log("---------------------------------");
+			})
+		};
+		displayFriends();
+
+		//verify all information has been filled out.
+		$('#submit').on("click", function questionCheck(){
+			var allAnswered = true;
+			var message = "";
+			if($('#name').val() === ""){
+				allAnswered = false;
+				message += " -Name- "
+			}
+			if($('#photo').val() === ""){
+				allAnswered = false;
+				message += " -Photo- "
+			}
+			for (var i = 1; i <= 10; i++) {
+				if($('#q' + i).val() === ""){
+					allAnswered = false;
+					message += " -Question: " + i + "- "
+				}
+			}
+			if(!allAnswered){
+				//if all of the questions are not answered alert the user what they need to fill out
+				alert('Missing the following information: ' + message);
+			}else{
+				//if all of the questions are answered append the best match
+				var newUser = {
+					name: $('#name').val()
+					,photo: $('#photo').val()
+					,scores: [
+				      $('#q1').val(),
+				      $('#q2').val(),
+				      $('#q3').val(),
+				      $('#q4').val(),
+				      $('#q5').val(),
+				      $('#q6').val(),
+				      $('#q7').val(),
+				      $('#q8').val(),
+				      $('#q9').val(),
+				      $('#q10').val()
+					]
+				};
+				findBestMatch(newUser);
+			}
+		});
+
+		function findBestMatch(user){
+			document.getElementById("results").innerHTML = "";
+			var currentURL = window.location.origin;
+			var currentBestFriend = "";
+			var scoreDifference = 0;
+			var currentBestFriendScore = 50;
+			$.ajax({url: currentURL + "/api/friends", method: "GET"})
+			.done(function(friendData) {
+				for (var i = 0; i < friendData.length; i++) {
+					scoreDifference = 0;
+					for (var j = 0; j < friendData[i].scores.length; j++) {
+						scoreDifference += Math.abs(friendData[i].scores[j] - user.scores[j]);
+					};
+					if(currentBestFriend === ""){
+						currentBestFriend = friendData[i];
+						currentBestFriendScore = scoreDifference;
+					}else if(scoreDifference < currentBestFriendScore){
+						currentBestFriend = friendData[i];
+						currentBestFriendScore = scoreDifference;
+					}
+				};
+				//only add to our friend array if the user is a new user.
+				var newFriend = true;
+				for (var i = 0; i < friendData.length; i++) {
+					if(friendData[i].name === user.name){
+						newFriend = false;
+					}
+				}
+				if(newFriend){
+					$.post(currentURL + "/api/friends", user, 'test');
+				}
+				$('#results').attr('class', 'displayFriend');
+				$('#results').append("<h2>Take a look at your new BFF!!</h2>");
+				$('#results').append("<h4 id='bffName'>" + currentBestFriend.name + "</h4>");
+				$('#results').append("<img id='bffPic' src=" + currentBestFriend.photo + ">");
+				$('#results').append("<p id='closeWindow' onclick='closeWindow()'>Close</p>");
+			});
+		};
+
+		//when the close button is pressed, close the window
+		function closeWindow(){
+			$('#results').attr('class', '');
+			document.getElementById("results").innerHTML = "";
+		}
+
+	</script>
+
+</body>
+</html>
